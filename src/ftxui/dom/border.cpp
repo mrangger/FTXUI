@@ -284,11 +284,11 @@ Decorator borderStyled(BorderStyle style, Color foreground_color) {
 /// ### Example
 ///
 /// ```cpp
-/// // Use 'borderDash' as a function...
-/// Element document = borderDash(text("The element"));
+/// // Use 'borderDashed' as a function...
+/// Element document = borderDashed(text("The element"));
 ///
 /// // ...Or as a 'pipe'.
-/// Element document = text("The element") | borderDAsh;
+/// Element document = text("The element") | borderDashed;
 /// ```
 ///
 /// ### Output
